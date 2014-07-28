@@ -1,0 +1,64 @@
+@import 'nib'
+
+grey = #E4E4E4
+highlight = #BD0000
+
+@font-face
+  font-family: 'Goudy'
+  src: url('font/goudy_bookletter_1911-webfont.ttf')
+
+@font-face
+  font-family: 'League Gothic'
+  src: url('font/leaguegothic-regular-webfont.ttf')
+
+body
+  font-family: 'Goudy', 'Georgia', serif
+  color: grey
+
+h1
+  font-family: 'League Gothic', 'Helvetica', sans-serif
+  color: highlight
+  font-size: 120px
+  margin: 50px 0
+
+a
+  color: grey
+  transition: all 0.2s
+
+a:hover, a:active
+  color: highlight
+
+.img
+  background-image: url('bokeh.jpg')
+  position: fixed
+  height: 100%
+  width: 100%
+  background-size: cover
+  z-index: -10
+  top: 0
+  left: 0
+
+#wrap
+  text-align: center
+  width: 960px
+  margin: 0 auto
+
+.bio
+  font-size: 30px
+
+.icons
+  width: 800px
+  margin: 50px auto
+
+.field
+  width: 152px
+  float: left
+  list-style-type: none
+  margin: 0
+  font-size: 80px
+  color: white
+
+.name
+  font-size: 30px
+  margin: 20px
+  color: highlight
