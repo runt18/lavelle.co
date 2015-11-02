@@ -14,8 +14,5 @@ deploy:
 
 rsync:
 	rsync -Rr \
-		vendor/jquery/dist/jquery.js \
 		vendor/bootstrap/dist/css/bootstrap.css \
-		vendor/font-awesome/css/font-awesome.css \
-		vendor/font-awesome/fonts \
 		site
